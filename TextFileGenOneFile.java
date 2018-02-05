@@ -35,7 +35,7 @@ class TextFileGenOneFile {
     public static String writeFile() throws Exception {
     	String str = generateRandomSentense() + "\n";
        	byte[] buffer = str.getBytes();
-		long number_of_lines = 50;
+		long number_of_lines = 75;
 
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		String fileName = timestamp.getTime() + "_file.txt";
